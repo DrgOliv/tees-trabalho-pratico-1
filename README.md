@@ -19,7 +19,7 @@
 
 
 **Ambiente e versões:**
-- PlatformA linux
+- Platforma linux
 - Python 3.8.10
 - pytest-7.1.1
 - pluggy-0.13.0
@@ -27,4 +27,4 @@
 
 
 **Comando usado:**
-`-m pytest -rp --cov-report term-missing --cov=src/ test-{roteiro}.py`
+- `-m pytest -rp --cov-report term-missing --cov=src/ test-{roteiro}.py`
