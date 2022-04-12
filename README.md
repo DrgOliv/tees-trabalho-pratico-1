@@ -27,4 +27,4 @@
 
 
 **Comando usado:**
-- `-m pytest -rp --cov-report term-missing --cov=src/ test-{roteiro}.py`
+- `python3 -m pytest -rp --cov-report term-missing --cov=src/ test-{roteiro}.py`
