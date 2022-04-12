@@ -7,8 +7,8 @@
 
 
 **Indicações:**
-- Dentro de cada subdiretório dos diretórios dos roteiros, há um diretório chamado **src**. O método avaliado, *mensagem*, está contido no script **msg.py** dentro desse diretório. O script é o mesmo em todos os diretórios.
-- Dentro de cada subdiretório dos diretórios dos roteiros, há um script chamado **test.py**, onde rodam os casos de teste especificados. Ele é específico do roteiro em questão e difere entre diretórios.
+- O método avaliado, *mensagem*, está contido no script **msg.py** dentro do diretório **src**. Há uma cópia dele dentro de cada subdiretório dos roteiros.
+- Dentro de cada subdiretório dos diretórios dos roteiros, há um script chamado **teste-{*roteiro*}.py**, onde rodam os casos de teste específicos do roteiro em questão.
 - Dentro do diretório de cada roteiro, há subdiretórios que denotam o passo a passo da construção do roteiro. No caso do roteiro funcional (roteiro 1), o roteiro final obtido está no subdiretório **particionamento-valor-limite**. Já no caso do roteiro estrutural (roteiro 2), o roteiro final obtido está no subdiretório **nivel-7**.
 
 
